@@ -1,5 +1,5 @@
 //
-//  Sights_AppApp.swift
+//  SightsApp.swift
 //  Sights App
 //
 //  Created by Justin Young on 6/16/21.
@@ -12,6 +12,7 @@ struct Sights_App: App {
     var body: some Scene {
         WindowGroup {
             LaunchView()
+                .environmentObject(ContentModel())
         }
     }
 }
