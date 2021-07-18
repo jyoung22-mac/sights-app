@@ -8,6 +8,9 @@
 
 /* Begin PBXBuildFile section */
 		5916C7982697E7E9001F3903 /* ContentModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5916C7972697E7E9001F3903 /* ContentModel.swift */; };
+		5916C79A26A3E5B5001F3903 /* Business.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5916C79926A3E5B5001F3903 /* Business.swift */; };
+		5916C79C26A3E97A001F3903 /* BusinessSearch.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5916C79B26A3E97A001F3903 /* BusinessSearch.swift */; };
+		5916C79F26A3F72D001F3903 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5916C79E26A3F72D001F3903 /* Constants.swift */; };
 		59757A6B267ABBD800D63AB4 /* SightsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59757A6A267ABBD800D63AB4 /* SightsApp.swift */; };
 		59757A6D267ABBD800D63AB4 /* LaunchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59757A6C267ABBD800D63AB4 /* LaunchView.swift */; };
 		59757A6F267ABBDA00D63AB4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 59757A6E267ABBDA00D63AB4 /* Assets.xcassets */; };
@@ -16,6 +19,9 @@
 
 /* Begin PBXFileReference section */
 		5916C7972697E7E9001F3903 /* ContentModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentModel.swift; sourceTree = "<group>"; };
+		5916C79926A3E5B5001F3903 /* Business.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Business.swift; sourceTree = "<group>"; };
+		5916C79B26A3E97A001F3903 /* BusinessSearch.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BusinessSearch.swift; sourceTree = "<group>"; };
+		5916C79E26A3F72D001F3903 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 		59757A67267ABBD800D63AB4 /* Sights App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Sights App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		59757A6A267ABBD800D63AB4 /* SightsApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SightsApp.swift; sourceTree = "<group>"; };
 		59757A6C267ABBD800D63AB4 /* LaunchView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LaunchView.swift; sourceTree = "<group>"; };
@@ -35,6 +41,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		5916C79D26A3F6DF001F3903 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				5916C79E26A3F72D001F3903 /* Constants.swift */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
 		59757A5E267ABBD800D63AB4 = {
 			isa = PBXGroup;
 			children = (
@@ -58,8 +72,9 @@
 				59757A7B267ABC4D00D63AB4 /* Views */,
 				59757A7A267ABC3F00D63AB4 /* ViewModels */,
 				59757A79267ABC3400D63AB4 /* Models */,
-				59757A6E267ABBDA00D63AB4 /* Assets.xcassets */,
+				5916C79D26A3F6DF001F3903 /* Helpers */,
 				59757A73267ABBDA00D63AB4 /* Info.plist */,
+				59757A6E267ABBDA00D63AB4 /* Assets.xcassets */,
 				59757A70267ABBDA00D63AB4 /* Preview Content */,
 			);
 			path = "Sights App";
@@ -76,6 +91,8 @@
 		59757A79267ABC3400D63AB4 /* Models */ = {
 			isa = PBXGroup;
 			children = (
+				5916C79926A3E5B5001F3903 /* Business.swift */,
+				5916C79B26A3E97A001F3903 /* BusinessSearch.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -166,8 +183,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				59757A6D267ABBD800D63AB4 /* LaunchView.swift in Sources */,
+				5916C79A26A3E5B5001F3903 /* Business.swift in Sources */,
 				59757A6B267ABBD800D63AB4 /* SightsApp.swift in Sources */,
+				5916C79C26A3E97A001F3903 /* BusinessSearch.swift in Sources */,
 				5916C7982697E7E9001F3903 /* ContentModel.swift in Sources */,
+				5916C79F26A3F72D001F3903 /* Constants.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
